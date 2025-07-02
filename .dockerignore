@@ -1,0 +1,32 @@
+# Docker ignore file for custom Superset image
+
+# Git files
+.git
+.gitignore
+
+# Documentation
+README.md
+
+# Docker compose files (not needed in image)
+docker-compose.yml
+docker-compose.override.yml
+
+# Environment files
+.env
+.env.*
+
+# Build artifacts
+build.sh
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

@@ -1,0 +1,12 @@
+trino
+sqlalchemy_dremio
+sqlalchemy-firebird>=0.7.0, <0.8
+fdb
+prometheus-flask-exporter
+pyodbc
+pymssql
+
+# OAuth2/OIDC dependencies for Authelia integration
+authlib
+flask-oidc==2.2.0
+flask-openid
