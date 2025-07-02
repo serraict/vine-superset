@@ -17,7 +17,7 @@ on:
       - 'LICENSE'
 
 env:
-  IMAGE_NAME: serra-vine-superset
+  IMAGE_NAME: vine-superset
   REGISTRY: ghcr.io
 
 jobs:
