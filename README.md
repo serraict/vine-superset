@@ -33,18 +33,27 @@ This is a drop-in replacement for Apache Superset 4.0.2 used in Serra Vine.
 ## Building the Image
 
 1. Make the build script executable:
+
    ```bash
    chmod +x build.sh
    ```
 
 2. Build the image:
+
    ```bash
    ./build.sh
    ```
 
    Or with a version tag:
+
    ```bash
    ./build.sh v1.0.0
+   ```
+
+3. Pull the image:
+
+   ```bash
+   docker pull ghcr.io/serraict/vine-superset:latest
    ```
 
 ## Running the Services
@@ -68,7 +77,7 @@ This is a drop-in replacement for Apache Superset 4.0.2 used in Serra Vine.
 To migrate from the original setup:
 
 1. Build this custom image
-2. Update your existing docker-compose file to use `serra-vine-superset:latest` instead of `apache/superset:4.0.2`
+2. Update your existing docker-compose file to use `ghcr.io/serraict/vine-superset:latest` instead of `apache/superset:4.0.2`
 
 ## Production Deployment
 
