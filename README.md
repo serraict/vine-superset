@@ -61,6 +61,7 @@ This is a drop-in replacement for Apache Superset 4.0.2 used in Serra Vine.
 1. Copy your `.env` file from the original superset directory to this directory.
 
 2. Start the services:
+
    ```bash
    docker-compose up -d
    ```
@@ -87,3 +88,8 @@ For production use:
 2. Push to your container registry
 3. Update the docker-compose file to use your registry image
 4. Deploy using your orchestration platform (Docker Swarm, Kubernetes, etc.)
+
+## Next
+
+- ⏳ update to superset v5.0.0
+- add reporting tools to default image

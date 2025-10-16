@@ -1,7 +1,6 @@
 # Custom Superset Docker Image with Pre-installed Dependencies
-# Based on Apache Superset 4.0.2
 
-FROM apache/superset:4.0.2
+FROM apache/superset:5.0.0
 
 # Switch to root to install system dependencies
 USER root
@@ -16,7 +15,7 @@ RUN apt-get update && apt-get install -y \
 COPY requirements-local.txt /app/requirements-local.txt
 
 # Install custom Python dependencies
-RUN pip install --no-cache-dir -r /app/requirements-local.txt
+RUN uv pip install --no-cache-dir --system -r /app/requirements-local.txt
 
 # Copy custom Docker scripts
 COPY docker/ /app/docker/
