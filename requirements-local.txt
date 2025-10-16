@@ -5,6 +5,7 @@ fdb
 prometheus-flask-exporter
 pyodbc
 pymssql
+psycopg2-binary
 
 # OAuth2/OIDC dependencies for Authelia integration
 authlib
