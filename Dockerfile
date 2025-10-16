@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
 COPY requirements-local.txt /app/requirements-local.txt
 
 # Install custom Python dependencies
-RUN uv pip install --no-cache-dir --system -r /app/requirements-local.txt
+RUN uv pip install --python /app/.venv/bin/python --no-cache-dir -r /app/requirements-local.txt
 
 # Copy custom Docker scripts
 COPY docker/ /app/docker/
