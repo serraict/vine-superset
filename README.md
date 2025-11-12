@@ -8,10 +8,10 @@ This is a drop-in replacement for Apache Superset 4.0.2 used in Serra Vine.
 
 ## Features
 
-- Based on Apache Superset 4.0.2
+- Based on Apache Superset 4.0.2 (5.0 coming soon)
 - Pre-installed custom Python dependencies:
   - `trino` - Trino database connector
-  - `sqlalchemy_dremio` - Dremio database connector  
+  - `sqlalchemy_dremio` - Dremio database connector, patched to fix the `datetime[ms]` mapping error
   - `sqlalchemy-firebird` - Firebird database connector
   - `fdb` - Firebird database driver
   - `prometheus-flask-exporter` - Prometheus metrics exporter
