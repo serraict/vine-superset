@@ -1,5 +1,5 @@
 trino
-git+https://github.com/narendrans/sqlalchemy_dremio.git@b4c0099f457fbf501c6f34c816a42e74181c03e5#egg=sqlalchemy_dremio
+serraict-sqlalchemy-dremio
 sqlalchemy-firebird>=0.7.0, <0.8
 fdb
 prometheus-flask-exporter
