@@ -1,5 +1,5 @@
 trino
-serraict-sqlalchemy-dremio
+serraict-sqlalchemy-dremio>=3.0.6
 sqlalchemy-firebird>=0.7.0, <0.8
 fdb
 prometheus-flask-exporter
