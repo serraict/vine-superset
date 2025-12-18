@@ -4,11 +4,11 @@ This directory contains a custom Docker image for Apache Superset
 that includes all necessary dependencies pre-installed,
 eliminating the need to download them on each startup.
 
-This is a drop-in replacement for Apache Superset 4.0.2 used in Serra Vine.
+This is a drop-in replacement for Apache Superset 5.0.0 used in Serra Vine.
 
 ## Features
 
-- Based on Apache Superset 4.0.2 (5.0 coming soon)
+- Based on Apache Superset 5.0.0
 - Pre-installed custom Python dependencies:
   - `trino` - Trino database connector
   - `sqlalchemy_dremio` - Dremio database connector, patched to fix the `datetime[ms]` mapping error
